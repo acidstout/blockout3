@@ -17,14 +17,13 @@ or from a plain command prompt (same options: `test`, `debug`, `clean`):
 
     src\build.bat test
 
-`build\Release\BlockOut3.exe` is the game; `regress.exe` checks that the game
-logic still plays exactly like the original BlockOut II code (in `reference/`).
+`build\Release\BlockOut3.exe` is the game.
 
 ## Data
 
 Settings and high scores live in `%LOCALAPPDATA%\Block Out III`. On the first
 start the BlockOut II setup and high scores (`%LOCALAPPDATA%\Blockout`) are
-taken over; the BlockOut II files are not modified.
+taken over if they exist; the BlockOut II files are not modified.
 
 ## Licence
 
